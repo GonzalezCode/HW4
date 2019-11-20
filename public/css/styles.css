@@ -1,0 +1,141 @@
+body {
+    color: white;
+    background-color: black;
+
+}
+
+header, main, nav, footer {
+    text-align: center;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+nav a {
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color:white;
+}
+
+nav a:hover {
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+main {
+    border: solid;
+    border-width: 50%;
+    border-radius: 0%;
+    border-color: white;
+    width: 45%;
+    background-color: red;
+}
+
+#home {
+    padding-top: 15px;
+    padding-left: 20%;
+    padding-right:0%;
+    padding-bottom: 5px;
+}
+
+#malware {
+    padding-top: 15px;
+    padding-left: 20%;
+    padding-right:0%;
+    padding-bottom: 30px;
+}
+
+footer {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    padding-top: 15px;
+    align-items: center;
+    font-size: 10pt;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+#table-header {
+    background-color: maroon;
+    color:white;
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+ul {
+    margin: 0 auto;
+    width:30%;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+#content {
+    border:solid;
+    border-radius:2%;
+    border-color:black;
+    border-color: white;
+    background-color: peru;
+    padding-top:15px;
+    align-items:center;
+    width:40%;
+    margin:0 auto;
+}
+
+.hobby {
+    color: maroon;
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 4em;
+    margin-bottom:0px;
+}
+
+p {
+    width : 80%;
+    color:black;
+    size: 20pt;
+}
+
+ul {
+    width:20%;
+    padding-left: 20%;
+    text-align: left;
+}
+
+ol {
+    width:20%;
+    padding-left: 40%;
+    list-style-position: inside;
+    text-align: left;
+}
+
+.TextWrap {
+    float: left;
+}
+
+#page {
+  background:red;
+  color:white;
+}
+
+#page .active-page {
+    font-weight: bold;
+    color:black;
+    font-family: 'Monoton', cursive;
+}

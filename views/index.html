@@ -1,0 +1,47 @@
+ <!DOCTYPE html>
+<html>
+    
+    <!--
+    Marcus Gonzalez
+    First website
+    -->
+    <head>
+        <meta charset = "utf-8"/>
+        <title> Home</title>
+        <link href = "/css/styles.css" rel = "stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Cyber Security</h1>
+        </header>
+        <hr style="width:50%">
+        <nav id="page">
+            <a class = "active-page" href = "/">Home</a>
+            <a href = "/phishing">Phishing</a>
+            <a href = "/ransomware">Ransomware</a>
+            <a href = "/malware">Malware</a>
+            <a href = "/sengineering">Social Engineering</a>
+        </nav>
+        
+        <br /> <br />
+        <main id = "home">
+            <img src = "/img/cyber.jpg" alt = "Picture of Cyber emblem" class="TextWrap"/>
+            <p>
+            Cybersecurity is a field in demand in the age of technology. With more businesses and consumers becoming reliant on technology,
+            the need for secure data grows. Hackers have incentive to steal information for reasons not limited to financial gain, hacktivism,
+            and leak data. With this in mind, companies need to be aware of cyber attacks and how to defend themselves accordingly.
+            </p>
+            <p>Common attacks include:</p>    
+            <ul>
+                <li><strong>Phishing</strong></li>
+                <li><strong>Ransomware</strong></li>
+                <li><strong>Malware</strong></li>
+                <li><strong>Social Engineering</strong></li>
+            </ul>
+        </main>
+        
+        <footer>
+            <% include partials/footer.ejs %>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    
+    <!--
+    Marcus Gonzalez
+    First website
+    -->
+    <head>
+        <meta charset = "utf-8"/>
+        <title> Phishing</title>
+        <link href = "/css/styles.css" rel = "stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Phishing</h1>
+        </header>
+        <hr style="width:50%">
+        <nav id="page">
+            <a href = "/">Home</a>
+            <a class = "active-page" href = "/phishing">Phishing</a>
+            <a href = "/ransomware">Ransomware</a>
+            <a href = "/malware">Malware</a>
+            <a href = "/sengineering">Social Engineering</a>
+        </nav>
+        
+        <br /> <br />
+        <div id = "content">
+            <figure>
+                <img src = "/img/phishing.jpg" alt = "Phishing graphic" class="TextWrap"/>
+            </figure>
+            <br/><br/>
+            <p><em>Phishing</em> is the method of targeting mass amounts of people through email. 
+                Hackers will typically impersonate trusted sources to gain valuable information.
+                <em>Spearphishing</em> is a subset of phishing that with specific targets, making it 
+                a more sophisticated attack.
+            </p>
+        </div>
+        
+        <footer>
+                <a href="https://www.csoonline.com/article/2117843/what-is-phishing-how-this-cyber-attack-works-and-how-to-prevent-it.html" target="_blank">Phishing Source</a>
+                <hr>
+                <% include partials/footer.ejs %>
